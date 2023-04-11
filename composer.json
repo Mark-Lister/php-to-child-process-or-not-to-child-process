@@ -9,13 +9,16 @@
       "homepage": "http://wyrihaximus.net/"
     }
   ],
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mark-lister/php-to-X-or-not-to-X"
+        }
+    ],
   "require": {
-    "php": "^7.2",
+    "php": "^8.0",
     "wyrihaximus/doctrine-annotation-autoloader": "^1.0",
-    "wyrihaximus/to-x-or-not-to-x": "^1.0"
-  },
-  "require-dev": {
-    "api-clients/test-utilities": "^5.4"
+    "wyrihaximus/to-x-or-not-to-x": "dev-cakephp4"
   },
   "autoload": {
     "psr-4": {
@@ -31,7 +34,7 @@
   "config": {
     "sort-packages": true,
     "platform": {
-      "php": "7.2"
+      "php": "8.0"
     }
   },
   "extra": {
